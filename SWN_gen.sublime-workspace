@@ -1,0 +1,616 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"control",
+				"control_old"
+			],
+			[
+				"b",
+				"b01101000"
+			],
+			[
+				"getin",
+				"_get_input"
+			],
+			[
+				"optio",
+				"options"
+			],
+			[
+				"convert",
+				"convert_int"
+			],
+			[
+				"allow",
+				"allow_cancel"
+			],
+			[
+				"all",
+				"allow_cancel"
+			],
+			[
+				"fal",
+				"False"
+			],
+			[
+				"get_in",
+				"get_input"
+			],
+			[
+				"prope",
+				"properly"
+			],
+			[
+				"di",
+				"discarded"
+			],
+			[
+				"def",
+				"defaultdict"
+			],
+			[
+				"Can",
+				"CancelledError"
+			],
+			[
+				"Ca",
+				"CancelledError"
+			],
+			[
+				"try",
+				"try	Try/Except"
+			],
+			[
+				"num",
+				"number"
+			],
+			[
+				"fre",
+				"frequency"
+			],
+			[
+				"stat",
+				"statistics"
+			],
+			[
+				"cal",
+				"calculate_mode"
+			],
+			[
+				"std",
+				"std_dev"
+			],
+			[
+				"tr",
+				"try	Try/Except"
+			],
+			[
+				"col",
+				"column_gap"
+			],
+			[
+				"user",
+				"usernamewidth"
+			],
+			[
+				"use",
+				"usernamewidth"
+			],
+			[
+				"print",
+				"print_users"
+			],
+			[
+				"username",
+				"username"
+			],
+			[
+				"su",
+				"SURNAME"
+			],
+			[
+				"exit",
+				"SystemExit	exit"
+			],
+			[
+				"format",
+				"format	format"
+			],
+			[
+				"prin",
+				"print	print"
+			],
+			[
+				"Da",
+				"DatalineRE"
+			],
+			[
+				"pre",
+				"prefix_match"
+			],
+			[
+				"base",
+				"base_prefix"
+			],
+			[
+				"fo",
+				"format"
+			],
+			[
+				"d",
+				"d	d"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "map_template.txt",
+			"settings":
+			{
+				"buffer_size": 2498,
+				"line_ending": "Windows",
+				"name": "______          ______          ______"
+			}
+		}
+	],
+	"build_system": "Packages/C++/C++.sublime-build",
+	"command_palette":
+	{
+		"height": 81.0,
+		"selected_items":
+		[
+			[
+				"ssc++",
+				"Set Syntax: C++"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"sscss",
+				"Set Syntax: CSS"
+			],
+			[
+				"indent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"linter",
+				"SublimeLinter: Don’t Show Errors on Save"
+			],
+			[
+				"snippet",
+				"Snippet: <base>"
+			],
+			[
+				"snipp",
+				"Snippet: html"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"package li",
+				"Package Control: List Packages"
+			],
+			[
+				"html",
+				"Snippet: html"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"inden",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"sublimelin",
+				"SublimeLinter: Choose Lint Mode"
+			],
+			[
+				"lint",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ss p",
+				"Set Syntax: Python"
+			],
+			[
+				"pack in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 416.0
+	},
+	"console":
+	{
+		"height": 249.0,
+		"history":
+		[
+			"clear()",
+			"clear",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Makie/AppData/Local/Temp/7zO5454.tmp/Battle Royale Credits.txt",
+		"/C/Users/Makie/AppData/Local/Temp/7zO58C.tmp/README.txt",
+		"/C/Users/Makie/Documents/SniperEliteV2_Benchmark/SEV2__2014-06-28__19-53.txt",
+		"/C/Users/Makie/Documents/SniperEliteV2_Benchmark/SEV2__2014-06-28__20-06.txt",
+		"/C/Users/Makie/Documents/SniperEliteV2_Benchmark/SEV2__2014-06-28__20-25.txt",
+		"/C/Program Files (x86)/Steam/steamapps/common/Nuclear Throne/data.win",
+		"/C/Users/Makie/Documents/SniperEliteV2_Benchmark/SEV2__2014-06-28__20-02.txt",
+		"/C/Users/Makie/Downloads/MyCV.txt",
+		"/C/Users/Makie/GitHub/linear-cpp/Chapter 01 - Hello World/mine.cpp",
+		"/C/Users/Makie/GitHub/linear-cpp/Chapter 01 - Hello World/main.cpp",
+		"/C/Users/Makie/GitHub/sd/hello.cpp",
+		"/C/Users/Makie/Documents/Arduino/rtc_set/rtc_set.ino",
+		"/C/TDM-GCC/README-gcc-tdm.txt",
+		"/C/Users/Makie/Documents/Arduino/libraries/RTClib/RTClib.h",
+		"/C/Users/Makie/Documents/Arduino/libraries/RTClib/RTC_DS3231.cpp",
+		"/C/Users/Makie/Documents/Arduino/libraries/RTClib/RTC_DS3231.h",
+		"/C/Users/Makie/Documents/Arduino/libraries/RTClib/RTClib.cpp",
+		"/C/Users/Makie/Documents/Arduino/libraries/RTClib/examples/ds3231/ds3231.ino",
+		"/C/Users/Makie/Documents/Arduino/libraries/Time/Readme.txt",
+		"/C/Users/Makie/Documents/Arduino/libraries/DS1307RTC/readme.txt",
+		"/C/Users/Makie/Documents/Arduino/libraries/RTClib/RTC_DS1307.h",
+		"/C/Users/Makie/Documents/Arduino/morsetest/morsetest.ino",
+		"/C/Users/Makie/Documents/Arduino/RTCtest/RTCtest.ino",
+		"/C/Users/Makie/Documents/Arduino/libraries/FastLED/examples/RGBCalibrate/RGBCalibrate.ino",
+		"/C/Users/Makie/Documents/Lint Codes",
+		"/C/Users/Makie/GitHub/Practice/user_input.py",
+		"/C/Users/Makie/Desktop/FastLED/README.md",
+		"/C/Users/Makie/Downloads/FastLED.zip",
+		"/C/Users/Makie/Downloads/c:\\users\\makie\\appdata\\local\\temp\\Zip Browser\\475dbb712d54311c02c15b2636386ccc\\FastLED\\README.md",
+		"/C/Users/Makie/AppData/Local/Temp/7zOA67.tmp/README.md",
+		"/C/Users/Makie/AppData/Local/Temp/7zODCEE.tmp/README.md",
+		"/C/Users/Makie/GitHub/Practice/chart.svg",
+		"/C/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/crashes/Uplay.exe_4.5.2.3010_2014-05-28_19-59-14.dmp",
+		"/C/Users/Makie/GitHub/Practice/practice.sublime-project",
+		"/C/Users/Makie/GitHub/FrapsView/.gitignore",
+		"/C/Users/Makie/GitHub/Practice/practice.sublime-workspace",
+		"/C/Users/Makie/GitHub/Practice/scratch.py",
+		"/C/Users/Makie/GitHub/Practice/.gitignore",
+		"/C/Python34/Lib/site-packages/cairosvg/surface/__init__.py",
+		"/C/Users/Makie/AppData/Roaming/Sublime Text 3/Packages/Python Imports Sorter/Default (Windows).sublime-keymap",
+		"/C/Users/Makie/Documents/pythonreg.reg",
+		"/C/Users/Makie/AppData/Roaming/Sublime Text 3/Packages/User/AdvancedNewFile.sublime-settings",
+		"/C/Python34/README.txt",
+		"/C/Users/Makie/AppData/Local/Temp/7zO102C.tmp/__init__.py",
+		"/C/Users/Makie/AppData/Local/Temp/7zO6BEC.tmp/SOURCES.txt",
+		"/C/Users/Makie/AppData/Local/Temp/7zO40B5.tmp/requires.txt",
+		"/C/Users/Makie/pip/pip.log",
+		"/C/Users/Makie/GitHub/Practice/gen_statistics.py",
+		"/C/Users/Makie/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/C/Users/Makie/AppData/Local/Temp/7zO2B98.tmp/listkeeper.py",
+		"/C/Users/Makie/AppData/Roaming/Sublime Text 3/Packages/AdvancedNewFile/README.md",
+		"/C/Users/Makie/AppData/Roaming/Sublime Text 3/Packages/AdvancedNewFile/AdvancedNewFile.sublime-settings",
+		"/C/Users/Makie/GitHub/Practice/make_html_skeleton.py",
+		"/C/Users/Makie/AppData/Local/Temp/7zO25DB.tmp/make_html_skeleton.py",
+		"/C/Users/Makie/AppData/Local/Temp/7zOC868.tmp/listkeeper.py",
+		"/C/Users/Makie/GitHub/Practice/generate_usernames.py",
+		"/C/Users/Makie/AppData/Roaming/Sublime Text 3/Packages/Python/Try-Except-Finally.sublime-snippet",
+		"/C/Users/Makie/AppData/Roaming/Sublime Text 3/Packages/Python/Try-Except-Else-Finally.sublime-snippet",
+		"/C/Users/Makie/AppData/Roaming/Sublime Text 3/Packages/Python/Try-Except-Else.sublime-snippet",
+		"/C/Users/Makie/AppData/Roaming/Sublime Text 3/Packages/Python/Try-Except.sublime-snippet",
+		"/C/Users/Makie/AppData/Roaming/Sublime Text 3/Packages/User/py.sublime-snippet",
+		"/C/Users/Makie/GitHub/Practice/data/users2.txt",
+		"/C/Users/Makie/GitHub/Practice/data/users3.txt",
+		"/C/Users/Makie/AppData/Local/Temp/7zO32AF.tmp/generate_usernames_ans.py",
+		"/C/Users/Makie/GitHub/Practice/data/users.txt",
+		"/C/Users/Makie/AppData/Local/Temp/7zO3A4.tmp/uniquewords_ans.py",
+		"/C/Users/Makie/AppData/Local/Temp/7zOC254.tmp/uniquewords2.py",
+		"/C/Users/Makie/AppData/Local/Temp/7zOECD2.tmp/external_sites.py",
+		"/C/Users/Makie/AppData/Local/Temp/7zO4747.tmp/external_sites_ans.py",
+		"/C/Users/Makie/GitHub/Practice/data/forenames.txt",
+		"/C/Users/Makie/GitHub/Practice/data/statistics.dat",
+		"/C/Users/Makie/AppData/Local/Temp/7zOE4B9.tmp/generate_usernames.py",
+		"/C/Users/Makie/AppData/Roaming/Sublime Text 3/Packages/Python/New-Class.sublime-snippet",
+		"/C/Users/Makie/AppData/Roaming/Sublime Text 3/Packages/Python/method.sublime-snippet",
+		"/C/Users/Makie/AppData/Roaming/Sublime Text 3/Packages/Python/function.sublime-snippet",
+		"/C/Users/Makie/AppData/Roaming/Sublime Text 3/Packages/Python/__magic__.sublime-snippet",
+		"/C/Users/Makie/AppData/Roaming/Sublime Text 3/Packages/Python/New-Property.sublime-snippet",
+		"/C/Users/Makie/AppData/Roaming/Sublime Text 3/Packages/Python/Symbol List Hide Decorator.tmPreferences",
+		"/C/Users/Makie/AppData/Roaming/Sublime Text 3/Packages/Python/self.sublime-snippet",
+		"/C/Users/Makie/AppData/Roaming/Sublime Text 3/Packages/Python/Regular Expressions (Python).tmLanguage",
+		"/C/Users/Makie/AppData/Roaming/Sublime Text 3/Packages/Python/Python.tmLanguage",
+		"/C/Users/Makie/Documents/function.sublime-snippet",
+		"/C/Users/Makie/AppData/Roaming/Sublime Text 3/Packages/Python/Python.sublime-build",
+		"/C/Users/Makie/GitHub/FrapsView/venv/Scripts/Activate.ps1",
+		"/C/Users/Makie/GitHub/FrapsView/venv/Scripts/activate.bat",
+		"/C/Users/Makie/AppData/Local/Temp/7zOAA4E.tmp/generate_usernames_ans.py",
+		"/C/Users/Makie/AppData/Local/Temp/7zO5D76.tmp/generate_usernames.py",
+		"/C/Users/Makie/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Makie/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Makie/AppData/Roaming/Sublime Text 3/Packages/User/Python.sublime-settings",
+		"/C/Users/Makie/AppData/Roaming/Sublime Text 3/Packages/User/Plain text.sublime-settings",
+		"/C/Users/Makie/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/Default (Windows).sublime-keymap",
+		"/C/Users/Makie/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/C/Users/Makie/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/Makie/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Makie/AppData/Roaming/Sublime Text 3/Packages/Python Flake8 Lint/Flake8Lint.sublime-settings",
+		"/C/Users/Makie/AppData/Roaming/Sublime Text 3/Packages/User/Flake8Lint.sublime-settings",
+		"/C/Users/Makie/AppData/Roaming/Sublime Text 3/Packages/Python Flake8 Lint/Default (Windows).sublime-keymap",
+		"/C/Users/Makie/AppData/Local/Temp/7zO8B10.tmp/README.txt",
+		"/C/Users/Makie/AppData/Local/Temp/7zO1908.tmp/users.txt",
+		"/C/Users/Makie/AppData/Local/Temp/7zO1E0B.tmp/users2.txt",
+		"/C/Fraps/Benchmarks/vlc 2014-05-04 01-05-26-74 minmaxavg.csv",
+		"/C/Fraps/Benchmarks/FRAPSLOG.TXT",
+		"/C/Fraps/Benchmarks/vlc 2014-05-04 01-05-26-74 frametimes.csv",
+		"/C/Fraps/Benchmarks/vlc 2014-05-04 01-05-26-74 fps.csv",
+		"/C/Users/Makie/GitHub/FrapsView/settings.ini",
+		"/C/Users/Makie/GitHub/FrapsView/hello.py",
+		"/C/Users/Makie/GitHub/FrapsView/FrapsView.sublime-project",
+		"/C/Users/Makie/AppData/Roaming/Sublime Text 3/Packages/User/d.sublime-snippet",
+		"/C/Users/Makie/GitHub/FrapsView/README.md",
+		"/C/Fraps/Benchmarks/Shipping-ThiefGame 2014-05-02 19-08-10-88 fps.csv",
+		"/C/Fraps/Benchmarks/Shipping-ThiefGame 2014-05-02 19-08-10-88 frametimes.csv",
+		"/C/Fraps/Benchmarks/Shipping-ThiefGame 2014-05-02 19-08-10-88 minmaxavg.csv",
+		"/C/Windows/subl.bat",
+		"/C/Users/Makie/subl.bat",
+		"/E/SteamLibrary/SteamApps/common/Thief/ThiefGame/Config/ThiefEngine.ini"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"        ",
+			"____",
+			" ",
+			"\\n",
+			"int",
+			"Int",
+			"int",
+			"min-width",
+			"width",
+			"FrapsView",
+			"input",
+			"get_input",
+			"convert_",
+			"question",
+			"dirty",
+			"\\'",
+			"><",
+			"Wow6432Node\\",
+			"HKEY_LOCAL_MACHINE",
+			"value",
+			"message",
+			"repeat",
+			"stats",
+			"statistics",
+			"Statistics",
+			"statistics",
+			"frequencies",
+			"calculate_mode",
+			"Yuile",
+			"^.*:.*:.*$",
+			"\\d{4}:[a-z-]*:[a-z-]*:",
+			"\\d{4}:[a-z]*:[a-z-]*:",
+			".*::",
+			"(^.*:.*:.*:)(?<DD>.*:.*)",
+			"(*)",
+			"(^)",
+			"\\t",
+			"/t",
+			"\\t",
+			")",
+			"repr"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"   ##   ",
+			"_____",
+			"\\t",
+			"+",
+			"_convert_",
+			"'",
+			">\\n<",
+			"\\CRLF",
+			"\\n",
+			"HKEY_CURRENT_USER",
+			"",
+			"\\gDD",
+			"*",
+			"^",
+			"\\t\\t"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "map_template.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2498,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "______          ______          ______",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.RGBCalibrate":
+	{
+		"height": 118.0
+	},
+	"output.ds3231":
+	{
+		"height": 118.0
+	},
+	"output.exec":
+	{
+		"height": 159.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.morsetest":
+	{
+		"height": 118.0
+	},
+	"output.rtc_set":
+	{
+		"height": 227.0
+	},
+	"output.stino_log":
+	{
+		"height": 118.0
+	},
+	"project": "SWN_gen.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 185.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
