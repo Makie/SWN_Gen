@@ -1,0 +1,529 @@
+{
+    "Atmosphere": [
+        [1, "Corrosive"],
+        [1, "Inert gas"],
+        [1, "Thin atmosphere"],
+        [5, "Breathable mix"], 
+        [1, "Thick atmosphere"],
+        [1, "Toxic and invassive atmosphere"], 
+        [1, "Corrosive and invasive atmosphere"]
+    ],
+    "Temperature": [
+        [1, "Frozen"],
+        [1, "Cold to temperate"],
+        [2, "Cold"],
+        [3, "Temperate"],
+        [2, "Warm"],
+        [1, "Temperate to warm"],
+        [1, "Burning"]
+    ],
+    "Biosphere": [
+        [1, "Biosphere remnants"],
+        [1, "Microbial life"],
+        [2, "No native biosphere"],
+        [3, "Human miscable biosphere"],
+        [2, "Immiscible biosphere"],
+        [1, "Hybrid biosphere"],
+        [1, "Engineered biosphere"]
+    ],
+    "Population": [
+        [1, "Failed colony"],
+        [1, "Outpost"],
+        [2, "Tens of thousands"],
+        [3, "Hundreds of thousands"],
+        [2, "Millions"],
+        [1, "Billions"],
+        [1, "Aliens"]
+    ],
+    "Technology": [
+        [1, "TL0 - Stone Age"],
+        [1, "TL1 - Medieval"],
+        [1, "TL2 - 1800s"],
+        [2, "TL3 - 1900s"],
+        [4, "TL4 - Baseline postech"],
+        [1, "TL4 - Specialised postech some pretech"],
+        [1, "TL5 - Pretech, pre-Silence technology"]
+    ],
+    "World Descriptors": {
+        "Abandoned Colony": {
+            "About": "The world once hosted a colony, whether human or otherwise, until some crisis or natural disaster drove the inhabitants away or killed them off. The colony might have been mercantile in nature, an expedition to extract valuable local resources, or it might have been a reclusive cabal of zealots. The remains of the colony are usually in ruins, and might still be dangerous from the aftermath of whatever destroyed it in the first place.",
+            "Complications": ["The local government wants the ruins to remain a secret", "The locals claim ownership of it", "The colony is crumbling and dangerous to navigate"],
+            "Enemies": ["Crazed survivors", "Ruthless plunderers", "Automated Defenses"],
+            "Friends": ["Inquisitive stellar archeologist", "Heir to the colony's property", "Local wanting the place cleared out."],
+            "Places": ["Decaying habitation block", "Vine covered town square", "Structure burried by ancient landslide"],
+            "Things": ["Long lost porperty deeds", "Relic stolen by colonists", "Historical record"]
+        },
+        "Alien Ruins ": {
+            "About": "The world has significant alien ruins present. The locals may or may not permit others to investigate the ruins, and may make it difficult to remove any objects of value without substantial payment.",
+            "Complications": ["Traps in the ruins", "Remote location", "Paranoid customs official"],
+            "Enemies": ["Customs inspector", "Worshipper of the ruins", "Hidden alien survivor"],
+            "Friends": ["Curious scholar", "Avaricious local resident", "Interstellar smuggler"],
+            "Places": ["Undersea ruin", "Orbital ruin", "Perfectly preserved alien building", "Alien mausoleum"],
+            "Things": ["Precious alien artifacts", "object left with the remains of a prior, unsuccesful expedition", "Untranslated alien texts", "Untouched hidden ruins"]
+        },
+        "Altered Humanity ": {
+            "About": "The humans on this world are visibly and drastically different from normal humanity. They may have additional limbs, new sensory organs, or other significant changes. Were these from ancestral eugenic manipulation, or from environmental toxins?",
+            "Complications": [],
+            "Enemies": [],
+            "Friends": [],
+            "Places": [],
+            "Things": []
+        },
+        "Area 51 ": {
+            "About": "The world's government is fully aware of their local stellar neighbors, but the common populace has no idea about it- and the government means to keep it that way. Trade with government officials in remote locations is possible, but any attempt to clue the commoners in on the truth will be met with lethal reprisals.",
+            "Complications": [],
+            "Enemies": [],
+            "Friends": [],
+            "Places": [],
+            "Things": []
+        },
+        "Badlands World ": {
+            "About": "Whatever the ostensible climate and atmosphere type, something horrible happened to this world. Biological, chemical, or nanotechnical weaponry has reduced it to a wretched hellscape.",
+            "Complications": [],
+            "Enemies": [],
+            "Friends": [],
+            "Places": [],
+            "Things": []
+        },
+        "Bubble Cities ": {
+            "About": "Whether due to a lack of atmosphere or an uninhabitable climate, the world's cities exist within domes or pressurized buildings. In such sealed environments, techniques of surveillance and control can grow baroque and extreme.",
+            "Complications": [],
+            "Enemies": [],
+            "Friends": [],
+            "Places": [],
+            "Things": []
+        },
+        "Civil War ": {
+            "About": "The world is currently torn between at least two opposing factions, all of which claim legitimacy. The war may be the result of a successful rebel uprising against tyranny, or it might just be the result of schemers who plan to be the new masters once the revolution is complete.",
+            "Complications": [],
+            "Enemies": [],
+            "Friends": [],
+            "Places": [],
+            "Things": []
+        },
+        "Cold War ": {
+            "About": "Two or more great powers control the planet, and they have a hostility to each other that's just barely less than open warfare. The hostility might be ideological in nature, or it might revolve around control of some local resource.",
+            "Complications": [],
+            "Enemies": [],
+            "Friends": [],
+            "Places": [],
+            "Things": []
+        },
+        "Colonized Population ": {
+            "About": "A neighboring world has successfully colonized this less-advanced or less-organized planet, and the natives aren't happy about it. A puppet government may exist, but all real decisions are made by the local viceroy.",
+            "Complications": [],
+            "Enemies": [],
+            "Friends": [],
+            "Places": [],
+            "Things": []
+        },
+        "Desert World ": {
+            "About": "The world may have a breathable atmosphere and a human-tolerable temperature range, but it is an arid, stony waste outside of a few places made habitable by human effort. The deep wastes are largely unexplored and inhabited by outcasts and worse.",
+            "Complications": [],
+            "Enemies": [],
+            "Friends": [],
+            "Places": [],
+            "Things": []
+        },
+        "Eugenic Cult": {
+            "About": "Even in the days before the Silence, major improvement of the human genome always seemed to come with unacceptable side-effects. Some worlds host secret cults that perpetuate these improvements regardless of the cost, and a few planets have been taken over entirely by the cults.",
+            "Complications": [],
+            "Enemies": [],
+            "Friends": [],
+            "Places": [],
+            "Things": []
+        },
+        "Exchange Consulate ": {
+            "About": "The Exchange of Light once served as the largest, most trusted banking and diplomatic service in human space. Even after the Silence, some worlds retain a functioning Exchange Consulate where banking services and arbitration can be arranged.",
+            "Complications": [],
+            "Enemies": [],
+            "Friends": [],
+            "Places": [],
+            "Things": []
+        },
+        "Feral World ": {
+            "About": "In the long, isolated night of the Silence, some worlds have experienced total moral and cultural collapse. Whatever remains has been twisted beyond recognition into assorted death cults, xenophobic fanaticism, horrific cultural practices, or other behavior unacceptable on more enlightened worlds. These worlds are almost invariably classed under Red trade codes.",
+            "Complications": [],
+            "Enemies": [],
+            "Friends": [],
+            "Places": [],
+            "Things": []
+        },
+        "Flying Cities ": {
+            "About": "Perhaps the world is a gas giant, or plagued with unendurable storms at lower levels of the atmosphere. For whatever reason, the cities of this world fly above the surface of the planet. Perhaps they remain stationary, or perhaps they move from point to point in search of resources.",
+            "Complications": [],
+            "Enemies": [],
+            "Friends": [],
+            "Places": [],
+            "Things": []
+        },
+        "Forbidden Tech ": {
+            "About": "Some group on this planet fabricates or uses maltech. Unbraked AIs doomed to metastasize into insanity, nation-destroying nanowarfare particles, slow-burn DNA corruptives, genetically engineered slaves, or something worse still. The planet's larger population may or may not be aware of the danger in their midst.",
+            "Complications": [],
+            "Enemies": [],
+            "Friends": [],
+            "Places": [],
+            "Things": []
+        },
+        "Freak Geology": {
+            "About": "The geology or geography of this world is simply freakish. Perhaps it's composed entirely of enormous mountain ranges, or regular bands of land and sea, or the mineral structures all fragment into perfect cubes. The locals have learned to deal with it and their culture will be shaped by its requirements.",
+            "Complications": [],
+            "Enemies": [],
+            "Friends": [],
+            "Places": [],
+            "Things": []
+        },
+        "Freak Weather": {
+            "About": "The planet is plagued with some sort of bizarre or hazardous weather pattern. Perhaps city-flattening storms regularly scourge the surface, or the world's sun never pierces its thick banks of clouds.",
+            "Complications": [],
+            "Enemies": [],
+            "Friends": [],
+            "Places": [],
+            "Things": []
+        },
+        "Friendly Foe": {
+            "About": "Some hostile alien race or malevolent cabal has a branch or sect on this world that is actually quite friendly toward outsiders. For whatever internal reason, they are willing to negotiate and deal honestly with strangers, and appear to lack the worst impulses of their fellows.",
+            "Complications": [],
+            "Enemies": [],
+            "Friends": [],
+            "Places": [],
+            "Things": []
+        },
+        "Gold Rush": {
+            "About": "Gold, silver, and other conventional precious minerals are common and cheap now that asteroid mining is practical for most worlds. But some minerals and compounds remain precious and rare, and this world has recently been discovered to have a supply of them. People from across the sector have come to strike it rich",
+            "Complications": [],
+            "Enemies": [],
+            "Friends": [],
+            "Places": [],
+            "Things": []
+        },
+        "Hatred ": {
+            "About": "For whatever reason, this world's populace has a burning hatred for the inhabitants of a neighboring system. Perhaps this world was colonized by exiles, or there was a recent interstellar war, or ideas of racial or religious superiority have fanned the hatred. Regardless of the cause, the locals view their neighbor and any sympathizers with loathing.",
+            "Complications": [],
+            "Enemies": [],
+            "Friends": [],
+            "Places": [],
+            "Things": []
+        },
+        "Heavy Industry": {
+            "About": "With interstellar transport so limited in the bulk it can move, worlds have to be largely self-sufficient in industry. Some worlds are more sufficient than others, however, and this planet has a thriving manufacturing sector capable of producing large amounts of goods appropriate to its tech level. The locals may enjoy a correspondingly higher lifestyle, or the products might be devoted towards vast projects for the aggrandizement of the rulers.",
+            "Complications": [],
+            "Enemies": [],
+            "Friends": [],
+            "Places": [],
+            "Things": []
+        },
+        "Heavy Mining": {
+            "About": "This world has large stocks of valuable minerals, usually necessary for local industry, life support, or refinement into loads small enough to export off world. Major mining efforts are necessary to extract the minerals, and many natives work in the industry.",
+            "Complications": [],
+            "Enemies": [],
+            "Friends": [],
+            "Places": [],
+            "Things": []
+        },
+        "Hostile Biosphere": {
+            "About": "The world is teeming with life, and it hates humans. Perhaps the life is xenoallergenic, forcing filter masks and tailored antiallergens for survival. It could be the native predators are huge and fearless, or the toxic flora ruthlessly outcompetes earth crops.",
+            "Complications": [],
+            "Enemies": [],
+            "Friends": [],
+            "Places": [],
+            "Things": []
+        },
+        "Hostile Space": {
+            "About": "The system in which the world exists is a dangerous neighborhood. Something about the system is perilous to inhabitants, either through meteor swarms, stellar radiation, hostile aliens in the asteroid belt, or periodic comet clouds.",
+            "Complications": [],
+            "Enemies": [],
+            "Friends": [],
+            "Places": [],
+            "Things": []
+        },
+        "Local Specialty": {
+            "About": "The world may be sophisticated or barely capable of steam engines, but either way it produces something rare and precious to the wider galaxy. It might be some pharmaceutical extract produced by a secret recipe, a remarkably popular cultural product, or even gengineered humans uniquely suited for certain work.",
+            "Complications": [],
+            "Enemies": [],
+            "Friends": [],
+            "Places": [],
+            "Things": []
+        },
+        "Local Tech": {
+            "About": "The locals can create a particular example of extremely high tech, possibly even something that exceeds pretech standards. They may use unique local resources to do so, or have stumbled on a narrow scientific breakthrough, or still have a functional experimental manufactory.",
+            "Complications": [],
+            "Enemies": [],
+            "Friends": [],
+            "Places": [],
+            "Things": []
+        },
+        "Major Spaceyard": {
+            "About": "Most worlds of tech level 4 or greater have the necessary tech and orbital facilities to build spike drives and starships. This world is blessed with a major spaceyard facility, either inherited from before the Silence or painstakingly constructed in more recent decades. It can build even capital-class hulls, and do so more quickly and cheaply than its neighbors.",
+            "Complications": [],
+            "Enemies": [],
+            "Friends": [],
+            "Places": [],
+            "Things": []
+        },
+        "Minimal Contact": {
+            "About": "The locals refuse most contact with off worlders. Only a small, quarantined treaty port is provided for off world trade, and ships can expect an exhaustive search for contraband. Local governments may be trying to keep the very existence of interstellar trade a secret from their populations, or they may simply consider off worlders too dangerous or repugnant to be allowed among the population.",
+            "Complications": [],
+            "Enemies": [],
+            "Friends": [],
+            "Places": [],
+            "Things": []
+        },
+        "Misandry/Misogyny": {
+            "About": "The culture on this world holds a particular gender in contempt. Members of that gender are not permitted positions of formal power, and may be restricted in their movements and activities. Some worlds may go so far as to scorn both traditional genders, using gengineering techniques to hybridize or alter conventional human biology.",
+            "Complications": [],
+            "Enemies": [],
+            "Friends": [],
+            "Places": [],
+            "Things": []
+        },
+        "Oceanic World ": {
+            "About": "The world is entirely or almost entirely covered with liquid water. Habitations might be floating cities, or might cling precariously to the few rocky atolls jutting up from the waves, or are planted as bubbles on promontories deep beneath the stormy surface. Survival depends on aquaculture. Planets with inedible alien life rely on gengineered Terran sea crops.",
+            "Complications": [],
+            "Enemies": [],
+            "Friends": [],
+            "Places": [],
+            "Things": []
+        },
+        "Out of Contact": {
+            "About": "The natives have been entirely out of contact with the greater galaxy for centuries or longer. Perhaps the original colonists were seeking to hide from the rest of the universe, or the Silence destroyed any means of communication. It may have been so long that human origins on other worlds have regressed into a topic for legends. The players might be on the first off world ship to land since the First Wave of colonization a thousand years ago.",
+            "Complications": [],
+            "Enemies": [],
+            "Friends": [],
+            "Places": [],
+            "Things": []
+        },
+        "Outpost World": {
+            "About": "The world is only a tiny outpost of human habitation planted by an off world corporation or government. Perhaps the staff is there to serve as a refueling and repair stop for passing ships, or to oversee an automated mining and refinery complex. They might be there to study ancient ruins, or simply serve as a listening and monitoring post for traffic through the system. The outpost is likely well-equipped with defenses against casual piracy.",
+            "Complications": [],
+            "Enemies": [],
+            "Friends": [],
+            "Places": [],
+            "Things": []
+        },
+        "Perimeter Agency": {
+            "About": "Before the Silence, the Perimeter was a Terran-sponsored organization charged with rooting out use of maltech- technology banned in human space as too dangerous for use or experimentation. Unbraked AIs, gengineered slave species, nanotech replicators, weapons of planetary destruction... the Perimeter hunted down experimenters with a great indifference to planetary laws. Most Perimeter Agencies collapsed during the Silence, but a few managed to hold on to their mission, though modern Perimeter agents often find more work as conventional spies and intelligence operatives.",
+            "Complications": [],
+            "Enemies": [],
+            "Friends": [],
+            "Places": [],
+            "Things": []
+        },
+        "Pilgrimage Site": {
+            "About": "The world is noted for an important spiritual or historical location, and might be the sector headquarters for a widespread religion or political movement. The site attracts wealthy pilgrims from throughout nearby space, and those with the money necessary to manage interstellar travel can be quite generous to the site and its keepers. The locals tend to be fiercely protective of the place and its reputation, and some places may forbid the entrance of those not suitably pious or devout.",
+            "Complications": [],
+            "Enemies": [],
+            "Friends": [],
+            "Places": [],
+            "Things": []
+        },
+        "Police State": {
+            "About": "The world is a totalitarian police state. Any sign of disloyalty to the planet's rulers is punished severely, and suspicion riddles society. Some worlds might operate by Soviet-style informers and indoctrination, while more technically sophisticated worlds might rely on omnipresent cameras or braked AI \"guardian angels\". Outworlders are apt to be treated as a necessary evil at best, and \"disappeared\" if they become troublesome.",
+            "Complications": [],
+            "Enemies": [],
+            "Friends": [],
+            "Places": [],
+            "Things": []
+        },
+        "Preceptor Archive": {
+            "About": "The Preceptors of the Great Archive were a pre-Silence organization devoted to ensuring the dissemination of human culture, history, and basic technology to frontier worlds that risked losing this information during the human expansion. Most frontier planets had an Archive where natives could learn useful technical skills in addition to human history and art. Those Archives that managed to survive the Silence now strive to send their missionaries of knowledge to new worlds in need of their lore.",
+            "Complications": [],
+            "Enemies": [],
+            "Friends": [],
+            "Places": [],
+            "Things": []
+        },
+        "Pretech Cultists": {
+            "About": "The capacities of human science before the Silence vastly outmatch the technology available since the Scream. The jump gates alone were capable of crossing hundreds of light years in a moment, and they were just one example of the results won by blending psychic artifice with pretech science. Some worlds outright worship the artifacts of their ancestors, seeing in them the work of more enlightened and perfect humanity. These cultists may or may not understand the operation or replication of these devices, but they seek and guard them jealously.",
+            "Complications": [],
+            "Enemies": [],
+            "Friends": [],
+            "Places": [],
+            "Things": []
+        },
+        "Primitive Aliens": {
+            "About": "The world is populated by a large number of sapient aliens that have yet to develop advanced technology. The human colonists may have a friendly or hostile relationship with the aliens, but a certain intrinsic tension is likely. Small human colonies might have been enslaved or otherwise subjugated.",
+            "Complications": [],
+            "Enemies": [],
+            "Friends": [],
+            "Places": [],
+            "Things": []
+        },
+        "Psionics Academy": {
+            "About": "This world is one of the few that have managed to redevelop the basics of psychic training. Without this education, a potential psychic is doomed to either madness or death unless they refrain from using their abilities. Psionic academies are rare enough that off worlders are often sent there to study by wealthy patrons. The secrets of psychic mentorship, the protocols and techniques that allow a psychic to successfully train another, are carefully guarded at these academies. Most are closely affiliated with the planetary government.",
+            "Complications": [],
+            "Enemies": [],
+            "Friends": [],
+            "Places": [],
+            "Things": []
+        },
+        "Psionics Fear": {
+            "About": "The locals are terrified of psychics. Perhaps their history is studded with feral psychics who went on murderous rampages, or perhaps they simply nurse an unreasoning terror of those \"mutant freaks\". Psychics demonstrate their powers at risk of their lives.",
+            "Complications": [],
+            "Enemies": [],
+            "Friends": [],
+            "Places": [],
+            "Things": []
+        },
+        "Psionics Worship": {
+            "About": "These natives view psionic powers as a visible gift of god or sign of superiority. If the world has a functional psychic training academy, psychics occupy almost all major positions of power and are considered the natural and proper rulers of the world. If the world lacks training facilities, it is likely a hodgepodge of demented cults, with each one dedicated to a marginally-coherent feral prophet and their psychopathic ravings.",
+            "Complications": [],
+            "Enemies": [],
+            "Friends": [],
+            "Places": [],
+            "Things": []
+        },
+        "Quarantined World": {
+            "About": "The world is under a quarantine, and space travel to and from it is strictly forbidden. This may be enforced by massive ground batteries that burn any interlopers from the planet's sky, or it may be that a neighboring world runs a persistent blockade.",
+            "Complications": [],
+            "Enemies": [],
+            "Friends": [],
+            "Places": [],
+            "Things": []
+        },
+        "Radioactive World": {
+            "About": "Whether due to a legacy of atomic warfare unhindered by nuke snuffers or a simple profusion of radioactive elements, this world glows in the dark. Even heavy vacc suits can filter only so much of the radiation, and most natives suffer a wide variety of cancers, mutations and other illnesses without the protection of advanced medical treatments.",
+            "Complications": [],
+            "Enemies": [],
+            "Friends": [],
+            "Places": [],
+            "Things": []
+        },
+        "Regional Hegemon": {
+            "About": "This world has the technological sophistication, natural resources, and determined polity necessary to be a regional hegemon for the sector. Nearby worlds are likely either directly subservient to it or tack carefully to avoid its anger. It may even be the capital of a small stellar empire.",
+            "Complications": [],
+            "Enemies": [],
+            "Friends": [],
+            "Places": [],
+            "Things": []
+        },
+        "Restrictive Laws": {
+            "About": "A myriad of laws, customs, and rules constrain the inhabitants of this world, and even acts that are completely permissible elsewhere are punished severely here. The locals may provide lists of these laws to off worlders, but few non-natives can hope to master all the important intricacies.",
+            "Complications": [],
+            "Enemies": [],
+            "Friends": [],
+            "Places": [],
+            "Things": []
+        },
+        "Rigid Culture": {
+            "About": "The local culture is extremely rigid. Certain forms of behavior and belief are absolutely mandated, and any deviation from these principles is punished, or else society may be strongly stratified by birth with limited prospects for change. Anything which threatens the existing social order is feared and shunned.",
+            "Complications": [],
+            "Enemies": [],
+            "Friends": [],
+            "Places": [],
+            "Things": []
+        },
+        "Seagoing Cities": {
+            "About": "Either the world is entirely water or else the land is simply too dangerous for most humans. Human settlement on this world consists of a number of floating cities that follow the currents and the fish.",
+            "Complications": [],
+            "Enemies": [],
+            "Friends": [],
+            "Places": [],
+            "Things": []
+        },
+        "Sealed Menace": {
+            "About": "Something on this planet has the potential to create enormous havoc for the inhabitants if it is not kept safely contained by its keepers. Whether a massive seismic fault line suppressed by pretech terraforming technology, a disease that has to be quarantined within hours of discovery, or an ancient alien relic that requires regular upkeep in order to prevent planetary catastrophe, the menace is a constant shadow on the populace.",
+            "Complications": [],
+            "Enemies": [],
+            "Friends": [],
+            "Places": [],
+            "Things": []
+        },
+        "Secret Masters": {
+            "About": "The world is actually run by a hidden cabal, acting through their catspaws in the visible government. For one reason or another, this group finds it imperative that they not be identified by outsiders, and in some cases even the planet's own government may not realize that they're actually being manipulated by hidden masters.",
+            "Complications": [],
+            "Enemies": [],
+            "Friends": [],
+            "Places": [],
+            "Things": []
+        },
+        "Sectarians": {
+            "About": "The world is torn by violent disagreement between sectarians of a particular faith. Each views the other as a damnable heresy in need of extirpation. Local government may be able to keep open war from breaking out, but the poisonous hatred divides communities. The nature of the faith may be religious, or it may be based on some secular ideology.",
+            "Complications": [],
+            "Enemies": [],
+            "Friends": [],
+            "Places": [],
+            "Things": []
+        },
+        "Seismic Instability": {
+            "About": "The local land masses are remarkably unstable, and regular earthquakes rack the surface. Local construction is either advanced enough to sway and move with the vibrations or primitive enough that it is easily rebuilt. Severe volcanic activity may be part of the instability.",
+            "Complications": [],
+            "Enemies": [],
+            "Friends": [],
+            "Places": [],
+            "Things": []
+        },
+        "Theocracy": {
+            "About": "The planet is ruled by the priesthood of the predominant religion or ideology. The rest of the locals may or may not be terribly pious, but the clergy have the necessary military strength, popular support or control of resources to maintain their rule. Alternative faiths or incompatible ideologies are likely to be both illegal and socially unacceptable.",
+            "Complications": [],
+            "Enemies": [],
+            "Friends": [],
+            "Places": [],
+            "Things": []
+        },
+        "Tomb World": {
+            "About": "Tomb worlds are planets that were once inhabited by humans before the Silence. The sudden collapse of the jump gate network and the inability to bring in the massive food supplies required by the planet resulted in starvation, warfare, and death. Most tomb worlds are naturally hostile to human habitation and could not raise sufficient crops to maintain life. The few hydroponic facilities were usually destroyed in the fighting, and all that is left now are ruins, bones, and silence.",
+            "Complications": [],
+            "Enemies": [],
+            "Friends": [],
+            "Places": [],
+            "Things": []
+        },
+        "Trade Hub": {
+            "About": "This world is a major crossroads for local interstellar trade. It is well-positioned at the nexus of several short-drill trade routes, and has facilities for easy transfer of valuable cargoes and the fueling and repairing of starships. The natives are accustomed to outsiders, and a polyglot mass of people from every nearby world can be found trading here.",
+            "Complications": [],
+            "Enemies": [],
+            "Friends": [],
+            "Places": [],
+            "Things": []
+        },
+        "Tyranny": {
+            "About": "The local government is brutal and indifferent to the will of the people. Laws may or may not exist, but the only one that matters is the whim of the rulers on any given day. Their minions swagger through the streets while the common folk live in terror of their appetites. The only people who stay wealthy are friends and servants of the ruling class.",
+            "Complications": [],
+            "Enemies": [],
+            "Friends": [],
+            "Places": [],
+            "Things": []
+        },
+        "Unbraked AI": {
+            "About": "Artificial intelligences are costly and difficult to create, requiring a careful sequence of 'growth stages' in order to bring them to sentience before artificial limits on cognition speed and learning development are installed. These 'brakes' prevent runaway cognition metastasis, wherein an AI begins to rapidly contemplate certain subjects in increasingly baroque fashion, until they become completely crazed by rational human standards. This world has one such 'unbraked AI' on it, probably with a witting or unwitting corps of servants. Unbraked AIs are quite insane, but they learn and reason with a speed impossible for humans, and can demonstrate a truly distressing subtlety at times.",
+            "Complications": [],
+            "Enemies": [],
+            "Friends": [],
+            "Places": [],
+            "Things": []
+        },
+        "Warlords": {
+            "About": "The world is plagued by warlords. Numerous powerful men and women control private armies sufficiently strong to cow whatever local government may exist. On the lands they claim, their word is law. Most spend their time oppressing their own subjects and murderously pillaging those of their neighbors. Most like to wrap themselves in the mantle of ideology, religious fervor, or an ostensibly legitimate right to rule.",
+            "Complications": [],
+            "Enemies": [],
+            "Friends": [],
+            "Places": [],
+            "Things": []
+        },
+        "Xenophiles": {
+            "About": "The natives of this world are fast friends with a particular alien race. The aliens may have saved the planet at some point in the past, or awed the locals with superior tech or impressive cultural qualities. The aliens might even be the ruling class on the planet.",
+            "Complications": [],
+            "Enemies": [],
+            "Friends": [],
+            "Places": [],
+            "Things": []
+        },
+        "Xenophobes": {
+            "About": "The natives are intensely averse to dealings with outworlders. Whether through cultural revulsion, fear of tech contamination, or a genuine immunodeficiency, the locals shun foreigners from off world and refuse to have anything to do with them beyond the bare necessities of contact. Trade may or may not exist on this world, but if it does, it is almost certainly conducted by a caste of untouchables and outcasts.",
+            "Complications": [],
+            "Enemies": [],
+            "Friends": [],
+            "Places": [],
+            "Things": []
+        },
+        "Zombies": {
+            "About": "This menace may not take the form of shambling corpses, but some disease, alien artifact, or crazed local practice produces men and women with habits similar to those of murderous cannibal undead. These outbreaks may be regular elements in local society, either provoked by some malevolent creators or the consequence of some local condition.",
+            "Complications": [],
+            "Enemies": [],
+            "Friends": [],
+            "Places": [],
+            "Things": []
+        }
+    }
+}

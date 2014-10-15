@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"def",
+				"def	Function"
+			],
+			[
+				"W",
+				"WELCOME_MESSAGE"
+			],
+			[
+				"error",
+				"error_file_handler"
+			],
+			[
+				"info",
+				"info_file_handler"
+			],
+			[
+				"f",
+				"formatters"
+			],
+			[
+				"sec",
+				"sector_map"
+			],
+			[
+				"sys",
+				"systems"
+			],
+			[
 				"control",
 				"control_old"
 			],
@@ -46,10 +74,6 @@
 			[
 				"di",
 				"discarded"
-			],
-			[
-				"def",
-				"defaultdict"
 			],
 			[
 				"Can",
@@ -147,22 +171,25 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "map_template.txt",
-			"settings":
-			{
-				"buffer_size": 2498,
-				"line_ending": "Windows",
-				"name": "______          ______          ______"
-			}
-		}
 	],
-	"build_system": "Packages/C++/C++.sublime-build",
+	"build_system": "venv-Practice",
 	"command_palette":
 	{
-		"height": 81.0,
+		"height": 150.0,
 		"selected_items":
 		[
+			[
+				"upp",
+				"Convert Case: Upper Case"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"snipp",
+				"Snippet: json item"
+			],
 			[
 				"ssc++",
 				"Set Syntax: C++"
@@ -186,10 +213,6 @@
 			[
 				"snippet",
 				"Snippet: <base>"
-			],
-			[
-				"snipp",
-				"Snippet: html"
 			],
 			[
 				"remo",
@@ -271,6 +294,40 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Makie/GitHub/SWN_Gen/swn_gen/__init__.py",
+		"/C/Users/Makie/GitHub/SWN_Gen/swn_gen/__main__.py",
+		"/C/Users/Makie/GitHub/SWN_Gen/logging.json",
+		"/C/Users/Makie/GitHub/SWN_Gen/swn_gen/data/data_tables.json",
+		"/C/Users/Makie/GitHub/SWN_Gen/scratch.py",
+		"/C/Users/Makie/GitHub/FrapsView/FrapsView.py",
+		"/C/Users/Makie/GitHub/Practice/scratch.py",
+		"/C/Users/Makie/GitHub/SWN_Gen/SWN_gen.sublime-project",
+		"/C/Users/Makie/GitHub/SWN_Gen/main.py",
+		"/C/Users/Makie/GitHub/Practice/practice.sublime-project",
+		"/C/Users/Makie/GitHub/SWN_Gen/data_tables.json",
+		"/C/Users/Makie/AppData/Roaming/Sublime Text 3/Packages/User/Python.sublime-settings",
+		"/C/Users/Makie/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Makie/GitHub/SWN_Gen/map_template.txt",
+		"/C/Users/Makie/GitHub/SWN_Gen/sectors.py",
+		"/C/Users/Makie/GitHub/SWN_Gen/data.json",
+		"/C/Users/Makie/GitHub/SWN_Gen/world_tags.json",
+		"/C/Users/Makie/Downloads/104598.user.js",
+		"/C/Users/Makie/Downloads/SWN_Generator_1VQ4LCY/README.text",
+		"/C/Users/Makie/Downloads/SWN_Generator_1VQ4LCY.zip",
+		"/C/Users/Makie/Downloads/c:\\users\\makie\\appdata\\local\\temp\\Zip Browser\\4de270e6a3c0a3d93a5719c7012f3abf\\README.text",
+		"/C/Users/Makie/AppData/Local/Temp/7zOA03.tmp/README.text",
+		"/C/Users/Makie/GitHub/Practice/anagram.py",
+		"/C/Users/Makie/AppData/Roaming/Sublime Text 3/Packages/User/AdvancedNewFile.sublime-settings",
+		"/C/Users/Makie/GitHub/SWN_Gen/tag_data.txt",
+		"/C/Users/Makie/GitHub/SWN_Gen/swn_gen.py",
+		"/C/Users/Makie/AppData/Roaming/Sublime Text 3/Packages/Python Imports Sorter/Default.sublime-settings",
+		"/C/Users/Makie/AppData/Roaming/Sublime Text 3/Packages/AdvancedNewFile/README.md",
+		"/C/Users/Makie/GitHub/SWN_Gen/errors.log",
+		"/C/Users/Makie/AppData/Roaming/Sublime Text 3/Packages/User/json item.sublime-snippet",
+		"/C/Users/Makie/GitHub/SWN_Gen/logging.conf",
+		"/C/Users/Makie/GitHub/SWN_Gen/example.log",
+		"/C/Users/Makie/GitHub/SWN_Gen/.gitignore",
+		"/C/Users/Makie/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
 		"/C/Users/Makie/AppData/Local/Temp/7zO5454.tmp/Battle Royale Credits.txt",
 		"/C/Users/Makie/AppData/Local/Temp/7zO58C.tmp/README.txt",
 		"/C/Users/Makie/Documents/SniperEliteV2_Benchmark/SEV2__2014-06-28__19-53.txt",
@@ -304,15 +361,12 @@
 		"/C/Users/Makie/AppData/Local/Temp/7zODCEE.tmp/README.md",
 		"/C/Users/Makie/GitHub/Practice/chart.svg",
 		"/C/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/crashes/Uplay.exe_4.5.2.3010_2014-05-28_19-59-14.dmp",
-		"/C/Users/Makie/GitHub/Practice/practice.sublime-project",
 		"/C/Users/Makie/GitHub/FrapsView/.gitignore",
 		"/C/Users/Makie/GitHub/Practice/practice.sublime-workspace",
-		"/C/Users/Makie/GitHub/Practice/scratch.py",
 		"/C/Users/Makie/GitHub/Practice/.gitignore",
 		"/C/Python34/Lib/site-packages/cairosvg/surface/__init__.py",
 		"/C/Users/Makie/AppData/Roaming/Sublime Text 3/Packages/Python Imports Sorter/Default (Windows).sublime-keymap",
 		"/C/Users/Makie/Documents/pythonreg.reg",
-		"/C/Users/Makie/AppData/Roaming/Sublime Text 3/Packages/User/AdvancedNewFile.sublime-settings",
 		"/C/Python34/README.txt",
 		"/C/Users/Makie/AppData/Local/Temp/7zO102C.tmp/__init__.py",
 		"/C/Users/Makie/AppData/Local/Temp/7zO6BEC.tmp/SOURCES.txt",
@@ -321,7 +375,6 @@
 		"/C/Users/Makie/GitHub/Practice/gen_statistics.py",
 		"/C/Users/Makie/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
 		"/C/Users/Makie/AppData/Local/Temp/7zO2B98.tmp/listkeeper.py",
-		"/C/Users/Makie/AppData/Roaming/Sublime Text 3/Packages/AdvancedNewFile/README.md",
 		"/C/Users/Makie/AppData/Roaming/Sublime Text 3/Packages/AdvancedNewFile/AdvancedNewFile.sublime-settings",
 		"/C/Users/Makie/GitHub/Practice/make_html_skeleton.py",
 		"/C/Users/Makie/AppData/Local/Temp/7zO25DB.tmp/make_html_skeleton.py",
@@ -358,39 +411,21 @@
 		"/C/Users/Makie/GitHub/FrapsView/venv/Scripts/activate.bat",
 		"/C/Users/Makie/AppData/Local/Temp/7zOAA4E.tmp/generate_usernames_ans.py",
 		"/C/Users/Makie/AppData/Local/Temp/7zO5D76.tmp/generate_usernames.py",
-		"/C/Users/Makie/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
 		"/C/Users/Makie/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/C/Users/Makie/AppData/Roaming/Sublime Text 3/Packages/User/Python.sublime-settings",
 		"/C/Users/Makie/AppData/Roaming/Sublime Text 3/Packages/User/Plain text.sublime-settings",
 		"/C/Users/Makie/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/Default (Windows).sublime-keymap",
 		"/C/Users/Makie/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
 		"/C/Users/Makie/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
-		"/C/Users/Makie/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
 		"/C/Users/Makie/AppData/Roaming/Sublime Text 3/Packages/Python Flake8 Lint/Flake8Lint.sublime-settings",
 		"/C/Users/Makie/AppData/Roaming/Sublime Text 3/Packages/User/Flake8Lint.sublime-settings",
 		"/C/Users/Makie/AppData/Roaming/Sublime Text 3/Packages/Python Flake8 Lint/Default (Windows).sublime-keymap",
 		"/C/Users/Makie/AppData/Local/Temp/7zO8B10.tmp/README.txt",
 		"/C/Users/Makie/AppData/Local/Temp/7zO1908.tmp/users.txt",
-		"/C/Users/Makie/AppData/Local/Temp/7zO1E0B.tmp/users2.txt",
-		"/C/Fraps/Benchmarks/vlc 2014-05-04 01-05-26-74 minmaxavg.csv",
-		"/C/Fraps/Benchmarks/FRAPSLOG.TXT",
-		"/C/Fraps/Benchmarks/vlc 2014-05-04 01-05-26-74 frametimes.csv",
-		"/C/Fraps/Benchmarks/vlc 2014-05-04 01-05-26-74 fps.csv",
-		"/C/Users/Makie/GitHub/FrapsView/settings.ini",
-		"/C/Users/Makie/GitHub/FrapsView/hello.py",
-		"/C/Users/Makie/GitHub/FrapsView/FrapsView.sublime-project",
-		"/C/Users/Makie/AppData/Roaming/Sublime Text 3/Packages/User/d.sublime-snippet",
-		"/C/Users/Makie/GitHub/FrapsView/README.md",
-		"/C/Fraps/Benchmarks/Shipping-ThiefGame 2014-05-02 19-08-10-88 fps.csv",
-		"/C/Fraps/Benchmarks/Shipping-ThiefGame 2014-05-02 19-08-10-88 frametimes.csv",
-		"/C/Fraps/Benchmarks/Shipping-ThiefGame 2014-05-02 19-08-10-88 minmaxavg.csv",
-		"/C/Windows/subl.bat",
-		"/C/Users/Makie/subl.bat",
-		"/E/SteamLibrary/SteamApps/common/Thief/ThiefGame/Config/ThiefEngine.ini"
+		"/C/Users/Makie/AppData/Local/Temp/7zO1E0B.tmp/users2.txt"
 	],
 	"find":
 	{
-		"height": 26.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -404,6 +439,25 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"”",
+			"“",
+			"’",
+			"‘",
+			"\"\", \"\", \"\"",
+			"\\[\\s{2,}\\\"\\\",\\s{2,}\\\"\\\",\\s{2,}\\\"\\\"\\s{2,}\\]",
+			"to_file",
+			",",
+			"$\\n^",
+			"$^",
+			"$",
+			"\\n",
+			"\"",
+			"^\\d+ ",
+			" \\d ",
+			"logger",
+			"logging",
+			"star",
+			"map",
 			"        ",
 			"____",
 			" ",
@@ -452,6 +506,15 @@
 		"regex": false,
 		"replace_history":
 		[
+			"\"",
+			"'",
+			"",
+			"[\"\", \"\", \"\"]",
+			"\\n",
+			"\", \"",
+			"",
+			"\\n",
+			"system",
 			"   ##   ",
 			"_____",
 			"\\t",
@@ -477,38 +540,13 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "map_template.txt",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2498,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"auto_name": "______          ______          ______",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
+			]
+		},
+		{
+			"sheets":
+			[
 			]
 		}
 	],
@@ -529,11 +567,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.623702422145,
 			1.0
 		],
 		"rows":
@@ -553,7 +598,7 @@
 	},
 	"output.exec":
 	{
-		"height": 159.0
+		"height": 314.0
 	},
 	"output.find_results":
 	{
